@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         list.add(new FragMyFragment());
         list.add(new SecondFragment());
+        list.add(new ThirdFragment());
         viewPager = findViewById(R.id.viewPager);
         pagerAdapter = new MyAdapter(getSupportFragmentManager(), list);
         viewPager.setAdapter(pagerAdapter);
